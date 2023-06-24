@@ -1,40 +1,79 @@
--- ds.page: Welcome to doc-site
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.solid: #eee
+align-content: center
+
+-- ftd.row:
+width.fixed.px: 650
+height.fixed.px: 350
+background.solid: #c5dff5
+border-width.px: 3
+padding.px: 20
+border-radius.px: 20
+spacing.fixed.px: 50
+
+-- ftd.image:
+src: $assets.files.srmc.gif
+height: fill-container
+border-radius.px: 20
+
+-- ftd.column:
+
+-- ftd.text: SRMCEM , LUCKNOW
+role: $inherited.types.heading-medium
+
+-- ftd.text: 
+role: $inherited.types.copy-regular
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
-
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
-
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
-
--- ds.h3: 🚀 Fast Track 
-
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
-
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+Hello guys ,
+ Wecome to Ramswaroop don't be depressed !!
 
 
--- ds.h3: 🎯 Used by?
 
-Our all documentation sites uses this `doc-site` theme.
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
+-- end: ftd.column
 
--- ds.h2: Learn fastn and become a pro?
+-- end: ftd.row
 
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- end: ftd.column
 
--- end: ds.page
+-- component card:
+caption title: Default
+body description: Default
+
+-- ftd.row:
+width.fixed.px: 650
+height.fixed.px: 350
+background.solid: #c5dff5
+border-width.px: 3
+padding.px: 20
+border-radius.px: 20
+spacing.fixed.px: 50
+
+-- ftd.image:
+src: $assets.files.funatcoding.png
+height: fill-container
+border-radius.px: 20
+
+-- ftd.column:
+
+-- ftd.text: $card.title
+role: $inherited.types.heading-medium
+
+-- ftd.text: $card.description
+role: $inherited.types.copy-regular
+
+
+Having Fun Coding FASTN
+Here for fastn rodeshow, learning a fun language. 
+
+
+
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: card
